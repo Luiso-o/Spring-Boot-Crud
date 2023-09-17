@@ -5,8 +5,11 @@ Api RestFull Spring boot, @Maven, @Mysql Workbench.
 Tenemos una entidad llamada "Fruta", que dispone de las siguientes propiedades:
 
 int id
+
 String nombre
+
 Int cantidadQuilos
+
 Aprovechando la especificación JPA, deberás persistir esta entidad en una base de datos Mysql, siguiendo el patrón MVC. Para ello, dependiendo del Package principal, crearás una estructura de packages, donde ubicarás las clases que necesites:
 
 cat.itacademy.barcelonactiva.apellidos.nombre.s04.t02.n01.controllers
